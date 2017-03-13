@@ -1,0 +1,50 @@
+.contacts {
+  padding: 140px 0 0 108px;
+  .contact-list {
+    font-style: normal;
+
+    .underline {
+      display: inline-block;
+
+      &::after {
+        border-width: 3px;
+      }
+    }
+  }
+
+  .back {
+    float: left;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    
+
+    + .h2 {
+      margin: 0;
+      margin-left: 95px;
+      line-height: 71px;
+    }
+  }
+
+  .address-wrapper {
+    padding: 64px 0 0 95px;
+  }
+
+  .contact-by {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+
+
+}

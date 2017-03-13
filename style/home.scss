@@ -1,0 +1,57 @@
+/* Homepage */
+.home {
+  padding: 45px 60px 45px 200px;
+}
+
+.home .name {
+  margin-top: 200px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.home .location {
+  /*font-size: ;*/
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.home .projects {
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+
+.home .projects-header {
+  margin-bottom: 15px;
+}
+
+.home .swiper-wrapper {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home .swiper-slide {
+  height: 276px;
+  width: 467px;
+  background: lightgray;
+  float: left;
+  margin-right: 15px;
+}
+
+.home .swiper-container {
+  height: 276px;
+}
+
+.home .go-to-contacts,
+.home .projects-link {
+  text-decoration: none;
+  color: currentColor;
+  text-transform: lowercase;
+  position: relative;
+}
+
+.home .go-to-contacts {
+  position: absolute;
+  top: 50px;
+  right: 60px;
+}
