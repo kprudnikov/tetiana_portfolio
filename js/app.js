@@ -4,9 +4,14 @@ $(function () {
     spaceBetween: 15,
     autoHeight: true,
     mousewheelControl: true,
-    slidesPerView: 'auto'
+    slidesPerView: 'auto',
+    // autoplay: 2000,
+    // grabCursor: true,
+    keyboardControl: true,
+    // loop: true,
+    // loopedSlides: 6
   });
 
-  console.log(swiper);
-  window.swiper = swiper;
+  // console.log(swiper);
+  // window.swiper = swiper;
 });

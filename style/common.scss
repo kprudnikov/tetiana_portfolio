@@ -60,3 +60,44 @@ a.underline:hover::after{
   list-style: none;
   padding: 0;
 }
+
+.go-to-contacts {
+  position: absolute;
+  top: 50px;
+  right: $screen-margin-right;
+  text-transform: lowercase;
+}
+
+// round back button
+.back {
+  float: left;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
