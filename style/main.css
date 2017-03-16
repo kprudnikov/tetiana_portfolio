@@ -101,7 +101,7 @@ a.underline:hover::after {
     border-width: 3px; } }
 /* Homepage */
 body.home {
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 0; }
 
 .home {
