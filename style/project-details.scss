@@ -25,6 +25,7 @@
       margin: 0;
       font-size: 20px;
       line-height: 32px;
+      max-width: 400px;
 
       & + p {
         margin-top: 35px;
@@ -56,7 +57,7 @@
     }
 
     .project-body {
-      margin-bottom: 60px;
+      margin-bottom: 30px;
     }
 
     .project-description {

@@ -223,7 +223,8 @@ body.home {
 .project-details .project-description > p {
   margin: 0;
   font-size: 20px;
-  line-height: 32px; }
+  line-height: 32px;
+  max-width: 400px; }
 .project-details .project-description > p + p {
   margin-top: 35px; }
 .project-details .project-image {
@@ -244,7 +245,7 @@ body.home {
   .project-details .project-name {
     font-weight: 400; }
   .project-details .project-body {
-    margin-bottom: 60px; }
+    margin-bottom: 30px; }
   .project-details .project-description > p {
     font-weight: 300;
     font-size: 16px;
