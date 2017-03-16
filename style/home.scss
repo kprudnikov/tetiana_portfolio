@@ -5,11 +5,11 @@ body.home {
 }
 
 .home {
-  padding: 45px 0 45px 200px;
+  padding: 214px 0 45px 200px;
 
   .name {
-    margin-top: 200px;
-    font-weight: 700;
+    margin-top: 0;
+    font-weight: 600;
     margin-bottom: 0;
     margin-right: $screen-margin-right;
   }
@@ -21,7 +21,7 @@ body.home {
   }
 
   .projects {
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 70px;
   }
 
@@ -40,8 +40,8 @@ body.home {
   }
 
   .swiper-slide {
-    height: 276px;
-    width: 467px;
+    height: 320px;
+    width: 460px;
     float: left;
     margin-right: 15px;
     overflow: hidden;
@@ -73,8 +73,8 @@ body.home {
   }
 
   .badge {
-    font-size: 24px;
-    line-height: 73px;
+    font-size: 20px;
+    line-height: 60px;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -86,25 +86,24 @@ body.home {
     transition-duration: 0.2s;
 
     &.green {
-      background-color: #38BFA4;
+      background-color: #38bfa4;
       color: #000;
     }
 
     &.pink {
-      background-color: #F68392;
+      background-color: #f68392;
+      color: #fff;
+    }
+
+    &.dark {
+      background-color: #2d3a47;
       color: #fff;
     }
 
     &.white {
-      background-color: #2D3A47;
-      color: #fff;
+      background-color: #fff;
+      color: #171d5b;
     }
   }
-
-  //.go-to-contacts {
-  //  position: absolute;
-  //  top: 50px;
-  //  right: $screen-margin-right;
-  //}
 }
 

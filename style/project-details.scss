@@ -8,23 +8,23 @@
   .project-name {
     margin: 0;
     margin-left: $inner-margin-left;
-    line-height: 71px;
-    margin-bottom: 60px;
+    line-height: 50px;
+    margin-bottom: 69px;
   }
 
   .project-body {
     margin: 0;
     padding-left: $inner-margin-left;
     margin-right: $screen-margin-right;
-    max-width: 1034px;
+    max-width: 1040px;
     margin-bottom: 140px;
   }
 
   .project-description {
     & > p {
       margin: 0;
-      font-size: 24px;
-      line-height: 35px;
+      font-size: 20px;
+      line-height: 32px;
 
       & + p {
         margin-top: 35px;
@@ -33,9 +33,10 @@
   }
 
   .project-image {
-    margin-left: 127px;
+    margin-left: 159px;
     @media (max-width: $width-md) {
       float: none;
+      margin-left: 0;
     }
   }
 

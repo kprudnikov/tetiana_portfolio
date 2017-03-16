@@ -7,11 +7,6 @@ body {
   font-weight: 400;
 }
 
-.swiper-slide {
-  height: 276px;
-  width: 467px;
-}
-
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -26,12 +21,12 @@ body {
 
 h1, .h1 {
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2, .h2 {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 a.underline {
@@ -63,7 +58,7 @@ a.underline:hover::after{
 
 .go-to-contacts {
   position: absolute;
-  top: 50px;
+  top: 65px;
   right: $screen-margin-right;
   text-transform: lowercase;
 }
@@ -76,6 +71,10 @@ a.underline:hover::after{
   -ms-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   transition-duration: 0.2s;
+
+  & > img {
+    width: 50px;
+  }
 
   &:hover {
     -webkit-transform: scale(1.1);
