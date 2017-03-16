@@ -47,4 +47,32 @@
     box-sizing: content-box;
     max-width: 1034px;
   }
+
+  @media (max-height: $height-md) {
+    padding-top: 140px;
+
+    .project-name {
+      font-weight: 400;
+    }
+
+    .project-body {
+      margin-bottom: 60px;
+    }
+
+    .project-description {
+      & > p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+
+    &.project-nav {
+      margin-bottom: 65px;
+
+      & > .h2 {
+        font-weight: 400;
+      }
+    }
+  }
 }

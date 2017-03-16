@@ -29,6 +29,19 @@
     padding-bottom: 20px;
   }
 
+  @media (max-height: $height-md) {
+    .back {
+      + .h2 {
+        font-weight: 400;
+      }
+    }
 
-
+    .contact-by {
+      font-weight: 300;
+      font-size: 22px;
+      & > strong {
+        font-weight: 400;
+      }
+    }
+  }
 }

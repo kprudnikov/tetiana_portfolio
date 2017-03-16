@@ -82,6 +82,23 @@ a.underline:hover::after {
 .text-left {
   text-align: left; }
 
+@media (max-height: 900px) {
+  body {
+    font-size: 12px; }
+
+  h1, .h1 {
+    font-size: 44px;
+    font-weight: 400; }
+
+  h2, .h2 {
+    font-size: 32px;
+    font-weight: 300; }
+
+  .go-to-contacts {
+    font-weight: 400; }
+
+  a.underline::after {
+    border-width: 3px; } }
 /* Homepage */
 body.home {
   overflow: hidden;
@@ -91,7 +108,6 @@ body.home {
   padding: 214px 0 45px 200px; }
 .home .name {
   margin-top: 0;
-  font-weight: 600;
   margin-bottom: 0;
   margin-right: 78px; }
 .home .location {
@@ -151,6 +167,17 @@ body.home {
 .home .badge.white {
   background-color: #fff;
   color: #171d5b; }
+@media (max-height: 900px) {
+  .home {
+    padding-top: 200px; }
+  .home .projects-header {
+    font-weight: 400; }
+  .home .projects {
+    padding-top: 30px; }
+  .home .badge {
+    font-size: 16px; }
+  .home .location {
+    font-weight: 300; } }
 
 .contacts {
   padding: 162px 0 0 130px; }
@@ -169,6 +196,14 @@ body.home {
 .contacts .contact-by {
   font-size: 24px;
   padding-bottom: 20px; }
+@media (max-height: 900px) {
+  .contacts .back + .h2 {
+    font-weight: 400; }
+  .contacts .contact-by {
+    font-weight: 300;
+    font-size: 22px; }
+  .contacts .contact-by > strong {
+    font-weight: 400; } }
 
 .project-details {
   padding: 162px 0 0 130px; }
@@ -203,5 +238,20 @@ body.home {
   margin-right: 78px;
   box-sizing: content-box;
   max-width: 1034px; }
+@media (max-height: 900px) {
+  .project-details {
+    padding-top: 140px; }
+  .project-details .project-name {
+    font-weight: 400; }
+  .project-details .project-body {
+    margin-bottom: 60px; }
+  .project-details .project-description > p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px; }
+  .project-details.project-nav {
+    margin-bottom: 65px; }
+  .project-details.project-nav > .h2 {
+    font-weight: 400; } }
 
 /*# sourceMappingURL=main.css.map */

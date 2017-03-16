@@ -100,3 +100,27 @@ a.underline:hover::after{
 .text-left {
   text-align: left;
 }
+
+@media (max-height: $height-md) {
+  body {
+    font-size: 12px;
+  }
+
+  h1, .h1 {
+    font-size: 44px;
+    font-weight: 400;
+  }
+
+  h2, .h2 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+
+  .go-to-contacts {
+    font-weight: 400;
+  }
+
+  a.underline::after {
+    border-width: 3px;
+  }
+}

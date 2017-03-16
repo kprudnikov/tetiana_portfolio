@@ -9,7 +9,7 @@ body.home {
 
   .name {
     margin-top: 0;
-    font-weight: 600;
+    //font-weight: 600;
     margin-bottom: 0;
     margin-right: $screen-margin-right;
   }
@@ -103,6 +103,25 @@ body.home {
     &.white {
       background-color: #fff;
       color: #171d5b;
+    }
+  }
+  
+  @media ( max-height: $height-md ) {
+    padding-top: 200px;
+    .projects-header {
+      font-weight: 400;
+    }
+
+    .projects {
+      padding-top: 30px;
+    }
+
+    .badge {
+      font-size: 16px;
+    }
+
+    .location {
+      font-weight: 300;
     }
   }
 }
